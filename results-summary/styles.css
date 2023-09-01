@@ -13,7 +13,8 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    flex:auto;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .resultContainer{
@@ -26,21 +27,20 @@ html, body {
     border-radius: 20px;
 
     width: 25%;
+    flex:1;
     height: 50%;
-    padding: 20px;
     overflow: hidden;
 }
 
 .summaryContainer{
-    height: 50%;
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
     border-radius: 20px;
-    
+    flex:1;
     width: 25%;
     height: 50%;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     box-shadow: 0 0px 10px rgba(0,0,0,0.2);
 }
 
@@ -61,6 +61,17 @@ html, body {
     overflow: hidden;
 }
 
+.category{
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-top:10px;
+    margin-right: 0%;
+    display: flex;
+    align-items: center;
+    padding-right: 0px;
+
+}
+
 p{
     font-size: 25px;
     color: hsl(223, 60%, 85%);
@@ -76,4 +87,16 @@ h1{
     color: white;
     font-size: 72px;
     margin:auto;
+}
+
+h4{
+    padding-left: 50%;
+    color: hsl(224, 30%, 27%);
+}
+
+h5{
+    padding-left: 10px;
+    color: hsl(223, 6%, 52%);
+    font-size: 14px;
+    padding-right: 0px;
 }
