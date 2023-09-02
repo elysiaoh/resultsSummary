@@ -19,28 +19,40 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="resultContainer">
-      <p>Your Result</p>
-      <div class ="scoreContainer">
-        <h1 style="margin-bottom:0%; margin-top:0%">76</h1>
-        <p style="margin-top:0px; margin-bottom:0%">of 100</p>
+  <div class = "container">
+    <div class = "flex-item resultContainer">
+      <h3>Your Result</h3>
+      <div class = "circle">
+        <h1>76</h1>
+        <h4 style="margin:0">of 100</h4>
       </div>
-      <h2 style = "padding-bottom:0%;">Great</h2>
-      <p style="padding:30px; margin-top:0px; padding-top:5%; font-size:15px;">You scored higher than 65% of the people who have taken these tests.</p>
+      <h2 style="margin-top:5%; margin-bottom: 0;">Great</h2>
+      <h4 style="margin-left:5%; margin-right:5% ">You scored higher than 65% of the people who have taken these tests.</h4>
     </div>
-    <div class= "summaryContainer">
-      <p style="color: hsl(224, 30%, 27%); padding-bottom: 0px; margin-bottom: 20px;">Summary</p>
-      <div class = "category" style ="background-color:hsla(0, 78%, 84%, 0.33);"><img src="./assets/images/icon-reaction.svg"><p style = "color: hsl(0, 100%, 67%); font-size: 20px;padding-left: 10px;"><strong>Reaction</strong></p><h4>82</h4><h5>/ 100</h5></div>
-      <div class = "category" style ="background-color:hsla(39, 100%, 56%, 0.167);"><img src="./assets/images/icon-memory.svg"><p style = "color: hsl(39, 100%, 56%); font-size: 20px;padding-left: 10px;"><strong>Memory</strong></p><h4>92</h4><h5>/ 100</h5></div>
-      <div class = "category" style ="background-color:hsla(166, 100%, 37%, 0.198);"><img src="./assets/images/icon-verbal.svg"><p style = "color: hsl(166, 100%, 37%); font-size: 20px;padding-left: 10px;"><strong>Verbal</strong></p><h4>61</h4><h5>/ 100</h5></div>
-      <div class = "category" style ="background-color:hsla(234, 85%, 45%, 0.125);"><img src="./assets/images/icon-visual.svg"><p style = "color: hsl(234, 85%, 45%); font-size: 20px; padding-left: 10px;"><strong>Visual</strong></p><h4>72</h4><h5>/ 100</h5></div>
-      <button class = "continueButton">Continue</button>
-    </div> 
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Elysia Oh</a>.
-  </div>
+    <div class = "flex-item summaryContainer" >
+      <h3 style="color:hsl(224, 30%, 27%);">Summary</h3>
+      <div class = "category" style= "background-color: hsla(0, 100%, 67%, 0.233);">
+        <img src="/results-summary/assets/images/icon-reaction.svg">
+        <h5 style="color: hsl(0, 100%, 67%);">Reaction</h5>
+        <h6>80 /100</h6>
+      </div>
+      <div class = "category" style= "background-color: hsla(39, 100%, 56%, 0.152);" >
+        <img src="/results-summary/assets/images/icon-memory.svg">
+        <h5 style="color:hsl(39, 100%, 56%);" >Memory</h5>
+        <h6>92 /100</h6>
+      </div>
+      <div class = "category" style="background-color:  hsla(166, 100%, 37%, 0.149)">
+        <img src="/results-summary/assets/images/icon-verbal.svg">
+        <h5 style="color:  hsl(166, 100%, 37%);">Verbal</h5>
+        <h6>61 /100</h6>
+      </div>
+      <div class = "category" style="background-color: hsla(234, 85%, 45%, 0.086);">
+        <img src="/results-summary/assets/images/icon-visual.svg">
+        <h5 style="color: hsl(234, 85%, 45%);">Visual</h5>
+        <h6>72 /100</h6>
+      </div>
+      <button class="continue">Continue</button>
+    </div>
+  </div>   
 </body>
 </html>
